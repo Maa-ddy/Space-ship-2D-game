@@ -1,14 +1,10 @@
-
 package gamesemproject;
-
-import static gamesemproject.PlayMusic.playMusic;
 
 public class Launcher {
     
     public static void main(String[] args) {
         Game g = new Game("Space maze",1100,670);
         g.start();
-        playMusic("Music\\\\music1.wav");
     }
     
 }

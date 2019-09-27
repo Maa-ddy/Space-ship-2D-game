@@ -27,8 +27,8 @@ public class Assets {
         loadPlayer("/assets/textures/playerA/", "a");
         terrain = sheet.crop(0, 32, terrainWidth, terrainHeight);
          btn_start =  new BufferedImage[2];
-        btn_start[0]= ImageLoader.loadImage("/assets/textures/start11.png");
-        btn_start[1]=ImageLoader.loadImage("/assets/textures/start12.PNG");
+        btn_start[0] = ImageLoader.loadImage("/assets/textures/start11.png");
+        btn_start[1] = ImageLoader.loadImage("/assets/textures/start12.PNG");
         image=ImageLoader.loadImage("/assets/textures/sheet1.png");
         rock1 = sheet.crop(0, 0, tileWidth, tileHeight);
         rock2 = sheet.crop(32, 0, tileWidth, tileHeight);
